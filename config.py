@@ -1,0 +1,11 @@
+# Configuration File
+
+STOCK_SYMBOLS = ["INFY.NS", "RELIANCE.NS", "HDFCBANK.NS"]
+TIME_INTERVAL = "1d"
+START_DATE = "2021-01-01"
+END_DATE = "2024-12-01"
+STRATEGIES = ["rsi_strategy", "moving_average_crossover"]
+INITIAL_BALANCE = 10000
+TAKE_PROFIT_PERCENT = 20
+STOP_LOSS_PERCENT = 5
+TRAILING_STOP_LOSS_PERCENT = 3  # New value for trailing stop loss
